@@ -62,12 +62,12 @@ layout: default
                                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                                         <p class="fw-light m-0">{{ event.subtitle }}</p>
                                         <p class="fw-light m-0">
-                                            {% if event.paper.first %}
-                                            {% for paper in event.paper %}
-                                            <a href="{{ paper }}" target="_blank">[Paper {{ forloop.index }}]</a>
+                                            {% if event.link.first %}
+                                            {% for link in event.link %}
+                                            <a href="{{ link }}" target="_blank">[link {{ forloop.index }}]</a>
                                             {% endfor %}
-                                            {% elsif event.paper %}
-                                            <a href="{{ event.paper }}" target="_blank">[Paper]</a>
+                                            {% elsif event.link %}
+                                            <a href="{{ event.link }}" target="_blank">[link]</a>
                                             {% endif %}
                                             {% if event.poster.first %}
                                             {% for poster in event.poster %}

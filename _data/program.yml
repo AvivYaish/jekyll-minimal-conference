@@ -3,6 +3,8 @@ legend:
   categories:
     - name: Science
       color: red-6
+    - name: Literature
+      color: green-6
     - name: Space Music
       color: blue-6
     - name: Minimalism
@@ -46,4 +48,9 @@ days:
       subtitle: Yotam Gafni (Weizmann Institute) and Ben Golan (Leo Baeck High-school)
       category: Science
       time: '10:00 - 11:00'
-      paper: https://doi.org/10.48550/arXiv.2408.08767
+      link: https://doi.org/10.48550/arXiv.2408.08767
+    - title: Ulysses
+      subtitle: James Joyce
+      category: Literature
+      time: '10:00 - 11:00'
+      link: https://www.gutenberg.org/ebooks/4300
