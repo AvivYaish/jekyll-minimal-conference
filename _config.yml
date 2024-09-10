@@ -1,11 +1,8 @@
 title: jekyll-minimal-conference
-logoimg: ''  # Inside /assets/img/
-logoname: |
-  <span style="display: table-cell; vertical-align: middle;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="navbar-brand" style="margin: 0; width: 2.5em; height: 2.5em; vertical-align: -0.125em;" aria-hidden="true"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7l0 72 0 264c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L448 147 192 223.8 192 432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L128 200l0-72c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> </span> <span style="display: table-cell;">JEKYLL MINIMAL<br/>CONFERENCE</span>
 home: /
 description: 
-baseurl: ""
-url: https://www.avivyaish.com/jekyll-minimal-conference/
+baseurl: /jekyll-minimal-conference
+url: https://www.avivyaish.com
 indexing: true
 permalink: pretty
 
@@ -20,9 +17,11 @@ sass:
 exclude:
   - LICENSE
   - README.md
-  - Gemfile
   - vendor/
 
+logoimg: ''  # Inside /assets/img/
+logoname: |
+  <span style="display: table-cell; vertical-align: middle;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="navbar-brand" style="margin: 0; width: 2.5em; height: 2.5em; vertical-align: -0.125em;" aria-hidden="true"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7l0 72 0 264c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L448 147 192 223.8 192 432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L128 200l0-72c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> </span> <span style="display: table-cell;">JEKYLL MINIMAL<br/>CONFERENCE</span>
 copyright: "Copyright text is supported."  # Automatically adds copyright & year
 footer: |
   <a href="mailto:your@email.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="navbar-brand" style="width: 2.5em; height: 2.5em; vertical-align: -0.125em;" aria-hidden="true"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--> <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" /> </svg></a>
