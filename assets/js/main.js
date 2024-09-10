@@ -1,10 +1,10 @@
 ---
-    ---
+---
 
-    {% assign center = site.data.map.center | default: '47.788542883494856, 18.961139141737842' %}
+{% assign center = site.data.map.center | default: '47.788542883494856, 18.961139141737842' %}
 {% assign zoom = site.data.map.zoom | default: 13 %}
 
-var map = L.map("map").setView([{{ center }}], { { zoom } });
+var map = L.map("map").setView([{{ center }}], {{ zoom }});
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
@@ -22,12 +22,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 {% endif %}
 {% endfor %}
 L.marker([{{ marker.latlng }}])
-{% if content %}
+    {% if content %}
     .addTo(map)
     .bindTooltip("{{ content }}");
-{% else %}
+    {% else %}
     .addTo(map);
-{% endif %}
+    {% endif %}
 {% endfor %}
 {% endif %}
 
@@ -49,12 +49,12 @@ L.marker([{{ marker.latlng }}])
 {% assign content = line %}
 {% endif %}
 {% endfor %}
-L.polygon([{{ latlng }}], { color: '{{ color }}' })
-{% if content %}
+L.polygon([{{ latlng }}], {color: '{{ color }}'})
+    {% if content %}
     .addTo(map)
-    .bindTooltip("{{ content }}", { direction: 'center', offset: L.point({ x: {{ x }}, y: {{ y }}})});
-{% else %}
+    .bindTooltip("{{ content }}", {direction: 'center', offset: L.point({x: {{ x }}, y: {{ y }}})});
+    {% else %}
     .addTo(map);
-{% endif %}
+    {% endif %}
 {% endfor %}
 {% endif %}
