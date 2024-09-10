@@ -20,6 +20,8 @@ sass:
 exclude:
   - LICENSE
   - README.md
+  - Gemfile
+  - vendor/
 
 copyright: "Copyright text is supported."  # Automatically adds copyright & year
 footer: |
