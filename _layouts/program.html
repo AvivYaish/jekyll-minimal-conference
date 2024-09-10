@@ -20,13 +20,13 @@ layout: default
                 <div class="accordion-item">
                     <h5 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#{{ slug }}" aria-expanded="false" aria-controls="{{ slug }}">
+                            data-bs-target="#{{ slug }}" aria-expanded="true" aria-controls="{{ slug }}">
                             <span class="h5 m-0 w-100 text-center">
                                 {{ day.name }}
                             </span>
                         </button>
                     </h5>
-                    <div id="{{ slug }}" class="accordion-collapse collapse in">
+                    <div id="{{ slug }}" class="accordion-collapse collapse show">
                         <div class="accordion-body mt-2">
                             {% assign categories = site.data.program.legend.categories %}
                             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
@@ -36,7 +36,9 @@ layout: default
                                 <center>
                                     <h5>{{ event.title }}</h5>
                                     {% if event.subtitle %}
-                                    <small><p class="fw-light m-0">{{ event.subtitle }}</p></br></small>
+                                    <small>
+                                        <p class="fw-light m-0">{{ event.subtitle }}</p></br>
+                                    </small>
                                     {% endif %}
                                 </center>
                                 {% else %}
