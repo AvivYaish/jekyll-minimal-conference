@@ -42,7 +42,8 @@ days:
       time: '18:00 - 19:00'
 - name: Second Day (Saturday, October 26th)
   events:
-    - title: Title
-      subtitle: Albert Einstein (Institute for Advanced Study)
+    - title: Beyond Proportional Individual Guarantees for Binary Perpetual Voting
+      subtitle: Yotam Gafni (Weizmann Institute) and Ben Golan (Leo Baeck High-school)
       category: Science
       time: '10:00 - 11:00'
+      paper: https://doi.org/10.48550/arXiv.2408.08767
