@@ -3,9 +3,10 @@ zoom: 13
 
 markers:
   - title: Main Location
+    text: It is easily customizable with title and text
     latlng: 40.725147017266934, -73.99199177640592
 
-# areas:
+# polygons:
 #   - text:
 #       - This is a tooltip with no title...
 #       - ...and with multiple lines of text

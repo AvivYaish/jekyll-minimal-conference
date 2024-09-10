@@ -1,7 +1,7 @@
 ---
-layout: locations
-title: Locations
-description: Map of conference locations
+layout: map
+title: Map
+description: Overview of conference locations
 navorder: 3
 ---
 
